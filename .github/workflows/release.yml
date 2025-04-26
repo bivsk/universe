@@ -34,7 +34,7 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - platform: 'ubuntu-22.04'
+          - platform: 'ubuntu-24.04'
             args: '--bundles deb,appimage'
             extra: '-x64'
           - platform: 'ubuntu-24.04-arm'
